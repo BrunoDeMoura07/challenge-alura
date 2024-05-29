@@ -1,9 +1,12 @@
 body{
     background: #cccccc;
+    max-height: 100vh;
 }
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    height: 100%;
 }
 .cabecalho{
     display: flex;
