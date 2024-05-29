@@ -1,0 +1,16 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+.cabecalho h1{
+    color: darkblue;
+    margin-right: 8%;
+}
+.cabecalho img{
+    max-width: 50px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+    margin-left: 3%;
+}

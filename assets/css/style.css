@@ -1,100 +1,12 @@
-body{
+.container{
     background: #cccccc;
-    max-height: 100vh;
 }
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    height: 100%;
 }
-.cabecalho{
-    display: flex;
-    justify-content: space-between;
-    padding: 3%;
-}
-.cabecalho h1{
-    color: darkblue;
-    margin-right: 8%;
-}
-.cabecalho img{
-    max-width: 70px;
-    max-height: 70px;
-    width: auto;
-    height: auto;
-    margin-left: 3%;
-}
-.input-output{
-    display: flex;
-    justify-content: space-between;
-    padding: 2%;
-}
-#input-texto{
-    width: 345px;
-    height: 330px;
-    font-size: 20px;
-    color:darkblue;
-    background: transparent;
-    box-shadow: none;
-    border: none;
-    outline: 0;
-    padding: 20px;
-    text-transform: lowercase;
-    font-weight: bolder;
-}
-.alert-minusculo{
-    display: flex;
-    margin-top: 0;
-    
-}
-.input p{
-    width: 228px;
-    height: 18px;
 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 150%;
-    color: #495057;
-    opacity: 0.8;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-.exclamacao{
-    color: #495057;
-}
-#output{
-    display: flex;
-    flex-direction: column;
-    border: 3px solid darkblue;
-    border-radius: 20px;
-    width: 350px;
-    height: 400px;
-    margin-right: 3%;
-    text-align: center;
-    background: #fefefe;
-    font-size: 20px;
-    padding: 10px;
-    font-weight: bolder;
-}
-#output h2{
-    text-align: center;
-    font-size: 25px;
-    color: darkblue;
-}
-#output span{
-    font-size: 16px;
-    text-align: center;
-}
-#output img{
-    max-width: 300px;
-    max-height: 300px;
-    width: auto;
-    height: auto;
-    margin-top: 4%;
-}
+
 .botoes button{
     border: 2px solid darkblue;
     border-radius: 10px;

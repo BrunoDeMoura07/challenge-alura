@@ -1,0 +1,71 @@
+.input-output{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+#input-texto{
+    width: 245px;
+    height: 230px;
+    font-size: 20px;
+    color:darkblue;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 20px;
+    text-transform: lowercase;
+    font-weight: bolder;
+}
+.alert-minusculo{
+    display: flex;
+    margin-top: 0;
+    
+}
+.input p{
+    width: 128px;
+    height: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.exclamacao{
+    color: #495057;
+}
+#output{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid darkblue;
+    border-radius: 20px;
+    width: 250px;
+    height: 300px;
+    margin-right: 3%;
+    text-align: center;
+    background: #fefefe;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bolder;
+}
+#output h2{
+    text-align: center;
+    font-size: 25px;
+    color: darkblue;
+}
+#output span{
+    font-size: 16px;
+    text-align: center;
+}
+#output img{
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    margin-top: 4%;
+}
