@@ -31,7 +31,6 @@ var resultado = texto
 
   document.getElementById("output").innerText = resultado;
 }
-//copiar texto//
 
 function copiartexto() {
   var outputElement = document.getElementById("output");

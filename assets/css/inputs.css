@@ -1,18 +1,20 @@
 .input-output{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    padding: 2%;
+    align-items: center;
+    text-align: center;
+    padding: 1% 8%;
 }
 #input-texto{
-    width: 245px;
-    height: 230px;
+    width: 20rem;
+    height: 18rem;
     font-size: 20px;
     color:darkblue;
     background: transparent;
     box-shadow: none;
     border: none;
     outline: 0;
-    padding: 20px;
     text-transform: lowercase;
     font-weight: bolder;
 }
@@ -38,14 +40,24 @@
 }
 .exclamacao{
     color: #495057;
+    margin: 5%;
+}
+.output_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2%;
 }
 #output{
     display: flex;
     flex-direction: column;
+    align-items: center;
     border: 3px solid darkblue;
     border-radius: 20px;
-    width: 250px;
-    height: 300px;
+    width: 18rem;
+    height: 20rem;
     margin-right: 3%;
     text-align: center;
     background: #fefefe;
@@ -61,6 +73,7 @@
 #output span{
     font-size: 16px;
     text-align: center;
+    margin: 3% 0;
 }
 #output img{
     max-width: 200px;

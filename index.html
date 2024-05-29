@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/cabecalho.css">
     <link rel="stylesheet" href="assets/css/inputs.css">
+    <link rel="stylesheet" href="assets/css/botoes.css">
 
     <link rel="shortcut icon" href="assets/img/logo-a.svg" type="image/x-icon">
     <title>Charllenger Alura</title>
@@ -21,26 +22,24 @@
         <div class="input-output">
             <div class="input">
               <textarea id="input-texto" placeholder="Digite seu texto ..."></textarea>
-            <div class="alert-minusculo">
+              <div class="alert-minusculo">
                 <img class="exclamacao" src="assets/img/exclamacao.svg" alt="alerta">
               <p>Apenas letras minúsculas e sem acento.</p>
+              </div>
+              <div class="botoes">
+                <button onclick="criptografar()" class="botao-crip">Criptografar</button>
+                <button onclick="descriptografar()" class="botao-descrip">descriptografar</button>
+              </div>
             </div>
-            </div>
-            <div id="output">
-                <img src="assets/img/High quality products 1 1.svg" alt="imagem de fundo">
-                <h2>Sua mensagem aparecerá aqui!</h2>
-              <span> Digite um texto que você deseje criptografar ou descriptografar</span>
+            <div class="output_container">
+              <div id="output">
+                  <img src="assets/img/High quality products 1 1.svg" alt="imagem de fundo">
+                  <h2>Sua mensagem aparecerá aqui!</h2>
+                <span> Digite um texto que você deseje criptografar ou descriptografar</span>
+              </div>
+              <button onclick="copiartexto()" class="botao-copiar">copiar</button>
             </div>
         </div>
-        <div class="todos-botoes">
-        <div class="botoes">
-            <button onclick="criptografar()" class="botao-crip">Criptografar</button>
-            <button onclick="descriptografar()" class="botao-descrip">descriptografar</button>
-        </div>
-        <div class="bnt_copiar">
-            <button onclick="copiartexto()" class="botao-copiar">copiar</button>
-        </div>
-      </div>
 
       <footer class="rodape">
           <div class="icons">
@@ -49,9 +48,7 @@
             <a href=""><ion-icon name="code-working-outline"></ion-icon></a>
           </div> 
             <h3>Desenvolvido por Bruno Moura</h3>
-      </footer> 
-           
-      
+      </footer>    
 
     </main>
     
